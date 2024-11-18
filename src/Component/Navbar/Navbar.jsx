@@ -101,7 +101,7 @@ return (
                               <ul className='space-y-2'>
                                 
                               { DropdownLinks.map((data, index) =>(
-                                    <li>
+                                    <li key={index}>
                                       <a className='text-gray-500
                                       hover:text-black dark:hover:text-white
                                       duration-200 inline-block w-full p-2

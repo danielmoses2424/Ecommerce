@@ -126,7 +126,8 @@ return (
                     <input type="text" placeholder='Search'
                     className=' search-bar' />
                     <IoMdSearch  className='text-xl text-gray-600 group-hover:text-primary
-                    dark:text-gray-400 absolute top-1/3 -translate-y1/2 right-3 duration-200'/>
+                    dark:text-gray-400 absolute top-1/2
+                    -translate-y-1/2 right-3 duration-200'/>
                 </div>
                 {/* order button section */}
                 <button className='relative p-3'>
